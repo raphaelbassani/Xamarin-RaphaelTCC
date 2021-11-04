@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{94257442-E4D8-452A-B74B-1335FAAA80B3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TODOList/TODOList/View/TarefaPageView.xaml">
+    <Files>
+      <File FileName="TODOList/TODOList/View/TarefaPageView.xaml" Line="40" Column="36" />
+      <File FileName="TODOList/TODOList/App.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Xamarin-RaphaelTCC" expanded="True" selected="True">
+            <Node name="TODOList.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.TODOList.Android PreferredExecutionTarget="Android.Nexus_5X_API_29_x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TODOList.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+</Properties>

@@ -1,0 +1,16 @@
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/bin/Debug/netstandard2.0/TODOList.deps.json
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/bin/Debug/netstandard2.0/TODOList.dll
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/bin/Debug/netstandard2.0/ref/TODOList.dll
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/bin/Debug/netstandard2.0/TODOList.pdb
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/TODOList.csproj.AssemblyReference.cache
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/TODOList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/View/TarefaPageView.xaml.g.cs
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/TODOList.AssemblyInfoInputs.cache
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/TODOList.AssemblyInfo.cs
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/TODOList.csproj.CoreCompileInputs.cache
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/TODOList.dll
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/ref/TODOList.dll
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/TODOList.pdb
+/Users/raphael/Downloads/xamarin-TodoList-main/SolutionTodoList/TODOList/TODOList/obj/Debug/netstandard2.0/CustomControls/MyButton.xaml.g.cs

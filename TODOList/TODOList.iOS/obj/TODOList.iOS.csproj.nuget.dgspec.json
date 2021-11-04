@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList.iOS/TODOList.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList.iOS/TODOList.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList.iOS/TODOList.iOS.csproj",
+        "projectName": "TODOList.iOS",
+        "projectPath": "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList.iOS/TODOList.iOS.csproj",
+        "packagesPath": "/Users/raphael/.nuget/packages/",
+        "outputPath": "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/raphael/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList/TODOList.csproj": {
+                "projectPath": "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList/TODOList.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "HttpExtension": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList/TODOList.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList/TODOList.csproj",
+        "projectName": "TODOList",
+        "projectPath": "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList/TODOList.csproj",
+        "packagesPath": "/Users/raphael/.nuget/packages/",
+        "outputPath": "/Users/raphael/Desktop/Meu TCC Prática/Xamarin-RaphaelTCC/TODOList/TODOList/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/raphael/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "HttpExtension": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
