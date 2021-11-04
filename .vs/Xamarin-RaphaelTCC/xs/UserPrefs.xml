@@ -7,10 +7,14 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Xamarin-RaphaelTCC" expanded="True" selected="True">
-            <Node name="TODOList.iOS" expanded="True">
-              <Node name="Resources" expanded="True" />
+          <Node name="Xamarin-RaphaelTCC" expanded="True">
+            <Node name="TODOList" expanded="True">
+              <Node name="View" expanded="True">
+                <Node name="TarefaPageView.xaml" selected="True" />
+              </Node>
             </Node>
+            <Node name="TODOList.Android" expanded="True" />
+            <Node name="TODOList.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
