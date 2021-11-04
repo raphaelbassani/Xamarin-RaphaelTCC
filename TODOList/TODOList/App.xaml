@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TODOList.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="FaRegular">
+    <On Platform="iOS" Value="FontAwesome5Free-Solid" />
+    <On Platform="Android" Value="Font Awesome 5 Free-Solid-900.otf#Font Awesome Regular" />
+    </OnPlatform>
+            </ResourceDictionary>
+    </Application.Resources>
+</Application>

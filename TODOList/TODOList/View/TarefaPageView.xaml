@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:convert="clr-namespace:TODOList.Converter" xmlns:controls="clr-namespace:XamarinCustomControls.CustomControls"
+             x:Class="TODOList.View.TarefaPageView"
+             x:Name="TarefaPage">
+
+
+    <ContentPage.Resources>
+    
+        <ResourceDictionary>
+
+            <convert:FinalizadoConverter x:Key="cvtFinalizado"/>
+
+        </ResourceDictionary>
+    
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+
+            <StackLayout Orientation="Horizontal" Margin="20,20,0,0">
+                <Label
+                Text="Olá"
+                HorizontalOptions="Start"
+                FontSize="30"
+                FontAttributes="Bold"
+                TextColor="#505050"
+                />
+                <Label
+                Text="{Binding CurrentName.FirstName}"
+                HorizontalOptions="StartAndExpand"
+                FontSize="30"
+                FontAttributes="Bold"
+                TextColor="#505050"
+                />
+                <!--<ImageButton Source="refresh_icon.png"/>-->
+                <Button HorizontalOptions="EndAndExpand" x:Name="btnNome"
+                        Text="&#xf01e;" BackgroundColor="Transparent"
+                        FontSize="18"
+                        TextColor="#505050"
+                        FontFamily="{StaticResource FaRegular}"
+                        Command="{Binding AtualizarNameCommand}"/>
+
+            </StackLayout>
+               <BoxView 
+                   HeightRequest="1"
+                   Color="LightGray"
+                   Margin ="20, 0, 40, 30"/>
+
+
+            <ListView
+                x:Name="lvtTarefas"
+                ItemsSource="{Binding ListaTarefa}" SeparatorColor="Transparent">
+
+                <ListView.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <ViewCell>
+
+                            <StackLayout
+                                Orientation="Horizontal" Margin="35,0,35,0">
+
+                                <Label
+                                    x:Name="lblDescription"
+                                    Text="{Binding Description}"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="Center"
+                                    FontSize="14" TextColor="#505050"/>
+
+                                <Button
+                                    x:Name="btnSituacao"
+                                    Text="&#xf1f8;" BackgroundColor="Transparent"
+                        TextColor="#505050" FontSize="18"
+                        FontFamily="{StaticResource FaRegular}"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="Center"
+                                     Command="{Binding Source={x:Reference TarefaPage},
+                                                Path=BindingContext.ExcluirCommand}"
+                                    CommandParameter="{Binding .}"/>
+
+                            </StackLayout>
+                            
+                        </ViewCell>
+                        
+                        
+                    </DataTemplate>
+                                        
+                    
+                </ListView.ItemTemplate>
+                
+            </ListView>
+            <BoxView 
+                   HeightRequest="1"
+                   Color="LightGray"
+                   Margin ="20, 0, 40, 0"/>
+            <StackLayout
+                Orientation="Horizontal" Margin="20,10,0,20">
+
+                <Entry
+                    x:Name="edtTarefa"
+                    Text="{Binding TarefaAtual.Description}"
+                    Placeholder="Novo item"
+                    HorizontalOptions="FillAndExpand" />
+
+                <Button
+                    x:Name="btnSalvarTarefa"
+                    Text="&#xf304;" BackgroundColor="Transparent"
+                        TextColor="#505050" FontSize="18"
+                        FontFamily="{StaticResource FaRegular}"
+                    Command="{Binding SalvarCommand}"
+                    CommandParameter="{Binding .}"/>
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+        
+</ContentPage>
